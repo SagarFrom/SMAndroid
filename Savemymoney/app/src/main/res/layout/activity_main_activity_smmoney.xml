@@ -9,8 +9,75 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="pe.edu.upc.savemymoney.MainActivitySMMoney">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txt_password"
+        android:text="dsfsdv"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/txt_name"
+        android:layout_marginBottom="123dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:text="username"
+        android:layout_alignBaseline="@+id/txt_name"
+        android:layout_alignBottom="@+id/txt_name"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:text="password"
+        android:layout_alignTop="@+id/txt_password"
+        android:layout_toStartOf="@+id/txt_password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/txt_name"
+        android:layout_above="@+id/txt_password"
+        android:layout_toEndOf="@+id/editText2"
+        android:layout_marginBottom="62dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sing In"
+        android:id="@+id/button"
+        android:textColor="#fcfafa"
+        android:background="#08ae9e"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/button2"
+        android:background="#08ae9e"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="60dp"
+        android:layout_above="@+id/editText"
+        android:layout_alignStart="@+id/button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:text="Register with facebook"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
