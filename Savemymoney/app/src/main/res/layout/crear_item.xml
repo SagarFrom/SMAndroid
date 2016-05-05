@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:contextClickable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tipo de Cuenta"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark" />
+
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:text="Ingreso"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nombree"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:text="Saldo de su cuenta  "
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Escoja una divisa"
+        android:id="@+id/textView4"
+        android:textSize="30dp"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PEN"
+        android:id="@+id/textView5"
+        android:textSize="25dp"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:layout_gravity="center_horizontal"
+        android:phoneNumber="false" />
+
+</LinearLayout>
