@@ -12,41 +12,21 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/txt_password"
-        android:text="dsfsdv"
-        android:layout_above="@+id/button2"
-        android:layout_alignStart="@+id/txt_name"
-        android:layout_marginBottom="123dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/editText2"
         android:text="username"
-        android:layout_alignBaseline="@+id/txt_name"
-        android:layout_alignBottom="@+id/txt_name"
-        android:layout_alignParentStart="true" />
+        android:layout_above="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="46dp"
+        android:layout_alignEnd="@+id/editText3" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText3"
-        android:text="password"
-        android:layout_alignTop="@+id/txt_password"
-        android:layout_toStartOf="@+id/txt_password" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:id="@+id/txt_name"
-        android:layout_above="@+id/txt_password"
-        android:layout_toEndOf="@+id/editText2"
-        android:layout_marginBottom="62dp" />
+        android:text="password                                    "
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -55,9 +35,10 @@
         android:id="@+id/button"
         android:textColor="#fcfafa"
         android:background="#08ae9e"
-        android:layout_below="@+id/editText3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp" />
+        android:layout_above="@+id/button2"
+        android:layout_marginBottom="48dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignEnd="@+id/editText" />
 
     <Button
         android:layout_width="wrap_content"
@@ -66,9 +47,9 @@
         android:id="@+id/button2"
         android:background="#08ae9e"
         android:textColor="#ffffff"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="49dp"
         android:layout_above="@+id/editText"
-        android:layout_alignStart="@+id/button" />
+        android:layout_alignEnd="@+id/editText" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -76,8 +57,19 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/editText"
-        android:text="Register with facebook"
+        android:text="Register with "
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:autoText="false" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/btn_click"
+        android:scaleType="centerInside"
+        android:saveEnabled="false"
+        android:layout_below="@+id/button2"
+        android:layout_toEndOf="@+id/editText" />
 
 </RelativeLayout>
